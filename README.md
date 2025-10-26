@@ -33,10 +33,11 @@ This project presents a comprehensive **Mobile Sales Performance Dashboard** dev
 - **Analytical Logic:** DAX measures created for profitability, growth rate, and ranking analysis  
 
 ### Example DAX Measures  
-```DAX
+DAX
 Total Sales = SUM(FactSales[SalesAmount])
 Profit Margin % = DIVIDE(SUM(FactSales[Profit]), SUM(FactSales[SalesAmount]))
 YoY Growth = DIVIDE([Total Sales] - [LY Total Sales], [LY Total Sales])
+
 ## 6. Technology Stack  
 | Component | Functionality |
 |----------|---------------|
